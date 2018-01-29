@@ -1,0 +1,38 @@
+body, html {
+    height: 100vh;
+    margin: 0;
+}
+
+.navbarcontainer3 {grid-area: header3}
+.container3 {grid-area: main3}
+
+.bg3 {
+    background-image: url("utahcounty1.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topnav3 {
+    background-color: Black;
+    overflow: hidden;
+}
+
+.topnav3 a {
+    float: left;
+    color: red;
+    text-align: center;
+    padding: 15px 17px
+
+}
+
+.topnav3 a:hover {
+    background-color: #ddd;
+    color:black;
+}
+
+.topnav3 a.active {
+    background-color: darkmagenta;
+    color: white;
+}
